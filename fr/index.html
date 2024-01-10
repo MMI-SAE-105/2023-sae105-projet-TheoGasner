@@ -14,8 +14,69 @@
         <h1 id="header-text">Cinéplique</h1>
         <div class="header-icons">
         <a href="../fr/index.html"><img src="../public/img/logo_fr.svg" alt="Logo traduction"></a>
-        <img src="../public/img/menu.svg" alt="icone Menu hamburger" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
-            x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+        <img src="../public/img/menu.svg" alt="icone Menu hamburger" aria-controls="mainNav" 
+        @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms x-transition:enter.delay.200ms>
+        <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+        
+            <div class="icon-croix">
+                <img src="/public/img/cross.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen">
+            </div>
+            <div class="nav-list">
+                <nav>
+                    <ul>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/ic_baseline-home.svg" alt="Icone maison">
+                            </span>
+                            <a href="../fr/index.html">Page d'accueil</a>
+                        </li>
+                        <div class="separator_header"></div>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/tabler_movie.svg" alt="Icone film">
+                            </span>
+                            <a href="../fr/film.html">Un voyage inattendu</a>
+                        </li>
+                        <div class="separator_header"></div>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/icon-park-outline_quote.svg" alt="Icone guillemet">
+                            </span>
+                            <a href="../fr/citation.html">“ Par ici, pauvre fou “</a>
+                        </li>
+                        <div class="separator_header"></div>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/mdi_contact.svg" alt="Icone bio">
+                            </span>
+                            <a href="../fr/realisateur.html">Peter Jackson</a>
+                        </li>
+                        <div class="separator_header"></div>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/bxs_book.svg" alt="Icone livre">
+                            </span>
+                            <a href="../fr/livre.html">Bilbo Le Hobbit </a>
+                        </li>
+                        <div class="separator_header"></div>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/mingcute_music-fill.svg" alt="Icone musique">
+                            </span>
+                            <a href="../fr/musique.html">The song of the Lonely Montain</a>
+                        </li>
+                        <div class="separator_header"></div>
+                        <li class="item-nav">
+                            <span class="icon_menu">
+                                <img src="../public/img/Vector.svg" alt="Icone frise">
+                            </span>
+                            <a href="../fr/frise.html">Frise chronologique</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
     </header>
     
     <footer>

@@ -283,6 +283,53 @@ header {
     font-weight: 600;
 }
 
+.perso_principaux {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+.gandalph p {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.bilbon p {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.thorin p {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.Gollum p {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.img_center2 {
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.p_center {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.citation2 {
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
 /* Footer */
 
 .footer_cineplique {
@@ -331,7 +378,14 @@ header {
     margin-top: 30px;
 }
 
-.citation2 {
-    margin-left: 40px;
-    margin-top: 12px;
-}
+
+
+
+
+
+
+
+
+
+
+

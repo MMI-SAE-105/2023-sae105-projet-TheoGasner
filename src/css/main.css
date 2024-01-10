@@ -435,7 +435,8 @@ form {
     width: 80%;
     padding-left: 10px;
     background-color: #e6e6e6;
-
+    margin-bottom: 3%;
+    margin-right: 3%;
 }
 
 .content h2 {

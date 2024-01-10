@@ -87,6 +87,45 @@
             </div>
     </header>
 
+    <main>
+        <h1 class="h1_all_page">Galerie Films</h1>
+        <img class="img_center2" src="../public/img/galerie-1.webp" alt="Bande Annonce">
+        <q class="p_center">Bande annonce du film Le Hobbit : Un voyage inattendu en VF</q>
+        <p class="p_center">Vous êtes fan de films fantastiques et d’épopées grandioses ? Découvrez les films en rapport avec le hobbit : un voyage
+        inattendu, le premier film de la trilogie du Hobbit, adaptée du roman de J.R.R. Tolkien.
+        Explorez aussi la trilogie du Seigneur des anneaux, le préquel du Hobbit, et King Kong, un autre film de Peter Jackson,
+        le réalisateur de ces chefs-d’œuvre du cinéma fantastique.</p>
+
+        <h2 class="h2_all_page">Trilogie Le Hobbit</h2>
+        
+        <div class="carrousel" x-data="{}">
+            <div class="carrousel" x-data="{}">
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant"
+                    aria-label="slide précedant"> &lt; </button>
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres"
+                    aria-label="slide suivant"> > </button>
+                <div class="carrousel_parent-ecrans" x-ref="parent">
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="../public/img/the hobbit un voyage inattendu 1.webp"
+                                alt="image carrousel">
+                        </figure>
+                    </div>
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="/public/img/the-hobbit-the-battle-of-the-five-armies-poster 1.webp"
+                                alt="image carrousel">
+                        </figure>
+                    </div>
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="../public/img/la_desolation.webp" alt="image carrousel">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer class="footer_cineplique">
         <div class="separateur"></div>

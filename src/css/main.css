@@ -3,3 +3,13 @@
 body {
     background-color: #DEBB77;
 }
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

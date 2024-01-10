@@ -24,3 +24,18 @@ header {
     flex-grow: 1;
     margin: 0;
 }
+
+.header-icons {
+    display: flex;
+}
+
+.header-icons img {
+    max-width: 30px;
+    margin-left: 10px;
+}
+
+.title_home h1 {
+    color: #000;
+    margin-top: -300px;
+    font-size: 64px;
+}

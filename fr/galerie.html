@@ -125,6 +125,38 @@
                 </div>
             </div>
         </div>
+
+        <h2 class="h2_all_page">Trilogie seigneur des anneaux</h2>
+        
+        <div class="carrousel" x-data="{}">
+            <div class="carrousel" x-data="{}">
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant"
+                    aria-label="slide précedant"> &lt; </button>
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres"
+                    aria-label="slide suivant"> > </button>
+                <div class="carrousel_parent-ecrans" x-ref="parent">
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="../public/img/seigner_des_anneaux1.webp" alt="image carrousel">
+                        </figure>
+                    </div>
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="/public/img/seigner_des_anneaux2.webp" alt="image carrousel">
+                        </figure>
+                    </div>
+                    <div class="carrousel_ecran">
+                        <figure>
+                            <img class="img_carrousel" src="../public/img/seigner_des_anneaux3.webp" alt="image carrousel">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="h2_all_page">King kong</h2>
+        
+        <img class="img_center2" src="../public/img/kong.webp" alt="King Kong">
     </main>
 
     <footer class="footer_cineplique">

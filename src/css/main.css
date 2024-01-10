@@ -352,6 +352,44 @@ header {
     text-align: center;
 }
 
+/* contact */
+
+.titre_contact {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#nom, #prenom, #mail {
+    margin-top: 5px;
+    width: 340px;
+    height: 52px;
+}
+
+#msg {
+    margin-top: 5px;
+    width: 340px;
+    height: 200px;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+.button-contact {
+    margin-top: 20px;
+    width: 243px;
+    height: 44px;
+    margin-left: 66px;
+    border: 1px solid #fff;
+    .background(Color(red: 0, green: 0, blue: 0).opacity(0.1));
+    border-radius: 10px;
+
+}
+
 /* Footer */
 
 .footer_cineplique {

@@ -77,7 +77,19 @@ header {
     list-style-type: none;
 }
 
+.nav-list nav ul li {
+    margin-top: 32px;
+    list-style-type: none;
+}
 
+.nav-list nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    font-family: 'Mulish';
+}
 
 
 /* Footer */

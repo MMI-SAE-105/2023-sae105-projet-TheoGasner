@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Cinéplique</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body>
+    <header class="header_cineplique">
+        <a href="../fr/index.html"><img src="../public/img/logo.svg" alt="Logo" id="logo"></a>
+        <h1 id="header-text">Cinéplique</h1>
+        <div class="header-icons">
+            <a href="../fr/index.html"><img src="../public/img/logo_fr.svg" alt="Logo traduction"></a>
+            <img src="../public/img/menu.svg" alt="icone Menu hamburger" aria-controls="mainNav"
+                @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms
+                x-transition:enter.delay.200ms>
+            <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+    
+                <div class="icon-croix">
+                    <img src="/public/img/cross.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen">
+                </div>
+                <div class="nav-list">
+                    <nav>
+                        <ul>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/ic_baseline-home.svg" alt="Icone maison">
+                                </span>
+                                <a href="../fr/index.html">Home page</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/tabler_movie.svg" alt="Icone film">
+                                </span>
+                                <a href="../fr/film.html">An unexpected journey</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/icon-park-outline_quote.svg" alt="Icone guillemet">
+                                </span>
+                                <a href="../fr/citation.html">“ This way, you fool “</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/mdi_contact.svg" alt="Icone bio">
+                                </span>
+                                <a href="../fr/realisateur.html">Peter Jackson</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/bxs_book.svg" alt="Icone livre">
+                                </span>
+                                <a href="../fr/livre.html">Bilbo The Hobbit </a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/mingcute_music-fill.svg" alt="Icone musique">
+                                </span>
+                                <a href="../fr/musique.html">The Lonely Montain</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/Vector.svg" alt="Icone frise">
+                                </span>
+                                <a href="../fr/frise.html">Timeline</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/galerie.svg" alt="Icone galerie">
+                                </span>
+                                <a href="../fr/galerie.html">Gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <h1 class="h1_all_page">The Hobbit : An unexpected Journey</h1>
+
+        <img class="img_center" src="../public/img/affiche_film.webp" alt="affiche film">
+        <q class="citation">Poster of the film The Hobbit: An Unexpected Journey</q>
+
+        <h4 class="h4-text">Discovering the world of Tolkien</h4>
+
+        <p class="p_center">The Hobbit: An Unexpected Journey is a film directed by Peter Jackson, released in 2012. It is
+        the
+        first part of a
+        trilogy adapted from the novel The Hobbit by J.R.R. Tolkien, published in 1937.
+        The film is a prequel to the Lord of the Rings trilogy, set sixty years later in the
+        same
+        world
+        fantasy world.
+        The film recounts the adventures of Bilbo Baggins, a hobbit who sets out with the wizard Gandalf and a company of
+        company of
+        thirteen
+        dwarves to reclaim the kingdom of Erebor, overrun by the dragon Smaug.</p>
+
+        <h4 class="h4-text">Les personnages principaux</h4>
+
+        <div class="perso_principaux">
+            <div class="gandalph">
+                <img src="../public/img/gandalph_perso.webp" alt="gandalph">
+                <p>Gandalf the grey</p>
+            </div>
+            <div class="bilbon">
+                <img src="../public/img/bilbon.webp" alt="Bilbon">
+                <p>Bilbon Saquet</p>
+            </div>
+
+        </div>
+
+        <div class="perso_principaux">
+            <div class="thorin">
+                <img src="../public/img/Thorin.webp" alt="Thorin">
+                <p>Thorin
+                    Écu-de-chêne</p>
+            </div>
+            <div class="Gollum">
+                <img src="../public/img/Gollum.webp" alt="Gollum">
+                <p>Gollum</p>
+            </div>
+
+        </div>
+
+        <p class="p_center">Bilbo is a hobbit who sets off on an adventure with Gandalf, a wise and mischievous wizard,
+        Thorin, a
+        dwarf, and Gollum
+        and Gollum, a mad, lonely creature.</p>
+
+        <h4 class="h4-text">A successful film</h4>
+
+        <p class="p_center">The film was made against the backdrop of the success of the Lord of the Rings trilogy, which
+        was
+        adapted from the novel
+        eponymous novel by J.R.R. Tolkien, published between 1954 and 1955. This trilogy, also directed by Peter Jackson,
+        enjoyed
+        a
+        commercial success, winning numerous awards including 17 Oscars.
+        The Hobbit: An Unexpected Journey is therefore an eagerly awaited sequel for fans of Tolkien's universe,
+        who are
+        want
+        the characters, locations and atmosphere of The Lord of the Rings.</p>
+
+        <img class="img_center" src="../public/img/image51.webp" alt="affiche film">
+
+        <p class="p_center">The film also aims to introduce viewers to The Hobbit, a lesser-known novel.
+        less well known
+        than The Lord of the
+        Rings, but which is just as rich and exciting.
+        The film aims to respect the spirit of the book, which is lighter and more humorous than The Lord of the Rings.
+        of the
+        Rings,
+        while making it more epic and complex, by adding elements from Tolkien's other works,
+        such as
+        the
+        appendices to The Lord of the Rings or The Silmarillion</p>
+
+        <h4 class="h4-text">The film and the book: a faithful but free adaptation</h4>
+
+        <p class="p_center">The film is based on the novel by J.R.R. Tolkien, published in 1937. It is the first film in a
+        trilogy directed by Peter
+        Jackson, who also made The Lord of the Rings.
+        The film follows the book, which recounts the journey of Bilbo Baggins, a hobbit, with Gandalf, a wizard, and the
+        dwarves,
+        to
+        take back a kingdom from a dragon.
+        The film retains the scenes and spirit of the book, but also adds elements from other books by
+        Tolkien's books,
+        or
+        invented by the scriptwriters.</p>
+
+        <img class="img_center2" src="../public/img/livre.webp" alt="Livre">
+        <q class="citation2">Colin Duriez's book on J.R.R Tolkien</q>
+
+        <h4 class="h4-text">Spectators and fans: mixed reactions</h4>
+        <p class="p_center">Audiences may or may not like the film, depending on whether or not they are familiar with the book.
+        Some
+        find that the film
+        respects and enriches the book, adding links with The Lord of the Rings and making the story
+        more
+        epic.
+        Others find that the film betrays and overlays the book, adding things that are not
+        necessary, and
+        by
+        the charm and simplicity of the book.</p>
+
+    </main>
+
+    <footer class="footer_cineplique">
+        <div class="separateur"></div>
+        <div class="partie-1">
+            <div class="first_part_footer">
+                <a href="../fr/contact.html">Contact</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/a-propos.html">About us</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/autres-projet.html">Other projects</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/glossaire.html">Glossary</a>
+            </div>
+        </div>
+        <div class="separateur"></div>
+        <div class="second_part_footer">
+            <p>Théo GASNER</p>
+            <p>Groupe C1</p>
+            <p>gasnertheo@gmail.com</p>
+            <p>This site is a project carried out as part of an educational exercise in the MMI Montbéliard department.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

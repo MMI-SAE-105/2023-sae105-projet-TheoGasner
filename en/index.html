@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Cinéplique</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body>
+    <header class="header_cineplique">
+        <a href="../fr/index.html"><img src="../public/img/logo.svg" alt="Logo" id="logo"></a>
+        <h1 id="header-text">Cinéplique</h1>
+        <div class="header-icons">
+            <a href="../fr/index.html"><img src="../public/img/logo_fr.svg" alt="Logo traduction"></a>
+            <img src="../public/img/menu.svg" alt="icone Menu hamburger" aria-controls="mainNav"
+                @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms
+                x-transition:enter.delay.200ms>
+            <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+
+                <div class="icon-croix">
+                    <img src="/public/img/cross.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen">
+                </div>
+                <div class="nav-list">
+                    <nav>
+                        <ul>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/ic_baseline-home.svg" alt="Icone maison">
+                                </span>
+                                <a href="../fr/index.html">Home page</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/tabler_movie.svg" alt="Icone film">
+                                </span>
+                                <a href="../fr/film.html">An unexpected journey</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/icon-park-outline_quote.svg" alt="Icone guillemet">
+                                </span>
+                                <a href="../fr/citation.html">“ This way, you fool “</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/mdi_contact.svg" alt="Icone bio">
+                                </span>
+                                <a href="../fr/realisateur.html">Peter Jackson</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/bxs_book.svg" alt="Icone livre">
+                                </span>
+                                <a href="../fr/livre.html">Bilbo The Hobbit </a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/mingcute_music-fill.svg" alt="Icone musique">
+                                </span>
+                                <a href="../fr/musique.html">The Lonely Montain</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/Vector.svg" alt="Icone frise">
+                                </span>
+                                <a href="../fr/frise.html">Timeline</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/galerie.svg" alt="Icone galerie">
+                                </span>
+                                <a href="../fr/galerie.html">Gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="../public/img/home-lehobbit.webp" alt="Affiche le hobbit" class="overlay-image">
+            <div class="overlay-text">
+                <h1>The Hobbit</h1>
+                <h2>This way you fool</h2>
+                <img class="chevrons-down" src="../public/img/chevrons-down.svg" alt="Chevrons vers le bas">
+            </div>
+        </div>
+        <div>
+            <div class="text-parchemin">
+                <p>Dive into the heart of Middle-earth, where adventure and magic intertwine to form an extraordinary world.
+                world.</p>
+            </div>
+        </div>
+
+        <h1 class="h2_all_page">This way you fool</h1>
+        <div class="container_info">
+            <img class="img_info" src="../public/img/gandalph.webp" alt="Gandalph">
+            <div class="container_text">
+                <img src="../public/img/rectangle_info.png" alt="container">
+                <div class="text-info-container">
+                    Discover the origin of Gandalf's famous line: 'Come here, you fool'. Immerse yourself in the magic
+                    of
+                    world of the
+                    Hobbit universe.
+                </div>
+
+                <button class="en-savoir-plus"><a href="../fr/citation-film.html">Find out more</a></button>
+
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <h1 class="h2_all_page">The Hobbit : An unexpected journey</h1>
+        <div class="container_info">
+            <div class="container_text_left">
+                <img src="../public/img/rectangle_info2.png" alt="container">
+                <div class="text-info-container2">
+                    Go behind the scenes of 'The Hobbit: An Unexpected Journey', a cinematic epic
+                    epic.
+                    Let the magic take you away.
+                </div>
+
+                <button class="en-savoir-plus"><a href="../fr/film.html">Find out more</a></button>
+
+            </div>
+
+            <img class="img_info" src="../public/img/affiche2.webp" alt="affiche 2">
+            <div class="container_text">
+            </div>
+        </div>
+        <div class="separator"></div>
+
+        <h1 class="h2_all_page">Peter jackson</h1>
+        <div class="container_info">
+            <img class="img_info" src="../public/img/peter.webp" alt="Peter Jackson">
+            <div class="container_text">
+                <img src="../public/img/rectangle_info.png" alt="container">
+                <div class="text-info-container">
+                    Discover the genius behind the camera: Peter Jackson. His art and vision will captivate you.
+                    Explore
+                    now!
+                </div>
+
+                <button class="en-savoir-plus"><a href="../fr/realisateur.html">Find out more</a></button>
+
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <h1 class="h2_all_page">Bilbo The hobbit</h1>
+        <div class="container_info">
+            <div class="container_text_left">
+                <img src="../public/img/rectangle_info2.png" alt="container">
+                <div class="text-info-container2">
+                    Immerse yourself in the work that inspired the cinematic epic. Explore 'Bilbo the Hobbit' by J.R.R.
+                    Tolkien.
+                    A
+                    literary adventure awaits you.
+                </div>
+
+                <button class="en-savoir-plus4"><a href="../fr/livre.html">Find out more</a></button>
+
+            </div>
+
+            <img class="img_info" src="../public/img/bilbo.webp" alt="bilbo">
+            <div class="container_text">
+            </div>
+        </div>
+
+
+        <div class="separator"></div>
+        <h1 class="h2_all_page">The song of the lonely montain</h1>
+        <div class="container_info">
+            <img class="img_info" src="../public/img/lonely.webp" alt="Lonely">
+            <div class="container_text">
+                <img src="../public/img/rectangle_info.png" alt="container">
+                <div class="text-info-container">
+                    Discover the bewitching melody of 'The Song of The Lonely Mountain'. Let yourself be carried away by its
+                    powerful musical
+                    musical magic.
+                </div>
+
+                <button class="en-savoir-plus5"><a href="../fr/musique.html">Find out more</a></button>
+
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <p class="p_center">We invite you to plunge into this fantastic universe, to explore every nook and cranny of our
+        of our site,
+        and let yourself be
+        the magic that has made The Hobbit: An Unexpected Journey such a cinema staple. That
+        the adventure
+        begin!</p>
+
+
+    </main>
+
+    <footer class="footer_cineplique">
+        <div class="separateur"></div>
+        <div class="partie-1">
+            <div class="first_part_footer">
+                <a href="../fr/contact.html">Contact</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/a-propos.html">About us</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/autres-projet.html">Other projects</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/glossaire.html">Glossary</a>
+            </div>
+        </div>
+        <div class="separateur"></div>
+        <div class="second_part_footer">
+            <p>Théo GASNER</p>
+            <p>Groupe C1</p>
+            <p>gasnertheo@gmail.com</p>
+            <p>This site is a project carried out as part of an educational exercise in the MMI Montbéliard department.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen:false}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Cinéplique</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body>
+    <header class="header_cineplique">
+        <a href="../fr/index.html"><img src="../public/img/logo.svg" alt="Logo" id="logo"></a>
+        <h1 id="header-text">Cinéplique</h1>
+        <div class="header-icons">
+            <a href="../fr/index.html"><img src="../public/img/logo_fr.svg" alt="Logo traduction"></a>
+            <img src="../public/img/menu.svg" alt="icone Menu hamburger" aria-controls="mainNav"
+                @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms
+                x-transition:enter.delay.200ms>
+            <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
+    
+                <div class="icon-croix">
+                    <img src="/public/img/cross.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen">
+                </div>
+                <div class="nav-list">
+                    <nav>
+                        <ul>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/ic_baseline-home.svg" alt="Icone maison">
+                                </span>
+                                <a href="../fr/index.html">Home page</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/tabler_movie.svg" alt="Icone film">
+                                </span>
+                                <a href="../fr/film.html">An unexpected journey</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/icon-park-outline_quote.svg" alt="Icone guillemet">
+                                </span>
+                                <a href="../fr/citation.html">“ This way, you fool “</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/mdi_contact.svg" alt="Icone bio">
+                                </span>
+                                <a href="../fr/realisateur.html">Peter Jackson</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/bxs_book.svg" alt="Icone livre">
+                                </span>
+                                <a href="../fr/livre.html">Bilbo The Hobbit </a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/mingcute_music-fill.svg" alt="Icone musique">
+                                </span>
+                                <a href="../fr/musique.html">The Lonely Montain</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/Vector.svg" alt="Icone frise">
+                                </span>
+                                <a href="../fr/frise.html">Timeline</a>
+                            </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/galerie.svg" alt="Icone galerie">
+                                </span>
+                                <a href="../fr/galerie.html">Gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <h1 class="h1_all_page">Peter Jakson</h1>
+        <img class="img_center2" src="../public/img/realisateur1.webp" alt="photo realisateur">
+        <q class="citation2">Avatar by Peter Jakson</q>
+        <h4 class="h4-text">Peter Jackson, The master of cinema</h4>
+        <p class="p_center">Peter Jackson is a New Zealand director who has adapted the world of J.R.R.
+        Tolkien
+        with the trilogies of
+        Lord of the Rings and The Hobbit trilogies.
+        His films are both faithful to the books and spectacular, using revolutionary special effects
+        effects and
+        revolutionary special effects and
+        talented actors.
+        But how did he become one of the most famous and profitable directors in the history of cinema?
+        history?
+        </p>
+        <h4 class="h4-text">His debut: from gore to drama</h4>
+        <p class="p_center">Peter Jackson was born in 1961 in Wellington, New Zealand. He discovered his passion for
+        the
+        cinema as a child,
+        making short films with his parents' Super 8 camera. He was inspired by the film King
+        Kong, which he
+        saw
+        at the age of nine.</p>
+        <img class="img_center2" src="../public/img/realisateur2.webp" alt="photo du realisateur">
+        <q class="citation2">Image of Peter Jackson en 2023</q>
+        <p class="p_center">He made a name for himself at the Cannes Film Festival and became a cult director for film fans.
+        of
+        gore. He changed
+        register in 1994 with Créatures célestes, a drama that tells the story of a passionate friendship between
+        two
+        friendship between two teenage girls. The film was hailed by the critics and enabled him to make his name
+        her name in
+        Hollywood.</p>
+        <h4 class="h4-text">The consecration: The Lord of the Rings</h4>
+        <p class="p_center">Peter Jackson has always dreamed of adapting J.R.R. Tolkien's The Lord of the Rings into a film.
+        Tolkien, which he read when he was
+        at the age of 18.
+        He proposed his project to Miramax, who agreed to finance it on condition that he reduce the story to two films.
+        films.
+        Peter
+        Jackson refused this compromise and looked for another studio to produce his trilogy. He convinced New Line
+        Cinema, who
+        him
+        to realise his ambition.</p>
+        <p class="p_center">The first film, The Fellowship of the Ring, was released in 2001 and was a phenomenal success.
+        It was followed by The Two Towers in 2002 and The Return of the King in 2003, both of which broke box-office records.
+        box-office records and
+        numerous awards, including 11 Oscars for the latter film.
+        The Lord of the Rings trilogy has become one of the greatest cinematic works of all time.
+        of all time.</p>
+        <h4 class="h4-text">The King Kong project</h4>
+        <p class="p_center">The sequel: King Kong, The Hobbit and beyond After the triumph of The Lord of the Rings, Peter
+        Jackson
+        fulfilled his childhood
+        by adapting King Kong in 2005. This was a remake of the 1933 film, starring Naomi Watts, Jack Black
+        and
+        Adrien
+        Adrien Brody.
+        The film was a commercial and critical success, winning three Oscars for visual effects, sound and
+        editing
+        sound editing.</p>
+        <img class="img_center2" src="../public/img/realisateur3.webp" alt="Photo kong">
+        <q class="citation2">Image from the film King Kong by Peter Jackson</q>
+        <h4 class="h4-text">The sequel: The Hobbit and beyond</h4>
+        <p class="p_center">In 2012, Peter Jackson returned to Tolkien's universe with The Hobbit trilogy, adapted from the
+        novel
+        novel of the same name
+        the adventures of Bilbo Baggins, Frodo's uncle. The project was originally due to be directed by Guillermo
+        del
+        Toro,
+        but he abandoned the project for scheduling reasons.
+        Peter Jackson then took over the reins of the project, which he decided to divide into three films: An Unexpected
+        Journey
+        journey in
+        2012,
+        The Desolation of Smaug in 2013 and The Battle of the Five Armies in 2014. The Hobbit trilogy was
+        reception
+        than The Lord of the Rings, but it remains a commercial and technical success.</p>
+        <h4 class="h4-text">Other projects</h4>
+        <p class="p_center">Since then, Peter Jackson has been working on more personal and less expensive projects. He is making a
+        documentary on
+        the First World
+        in 2018, using restored and colourised archive footage. He is also making a documentary series
+        on the
+        Beatles, due for release in 2021.</p>
+        <img class="img_center2" src="../public/img/realisateur4.webp" alt="image film">
+        <q class="citation2">Image from the film They shall not grow old</q>
+        <h4 class="h4-text">Conclusion</h4>
+        <p class="p_center">In conclusion, Peter Jackson is a director who has left his mark on the history of cinema with his
+        films
+        fantastic and
+        epic films. He has succeeded in creating magical, immersive worlds, using innovative technologies and
+        actors
+        charismatic actors. He has also remained true to his passion and artistic vision, despite the constraints
+        constraints
+        pressures of the industry. Peter Jackson is a director who makes us dream, thrill and travel.</p>
+
+    </main>
+
+    <footer class="footer_cineplique">
+        <div class="separateur"></div>
+        <div class="partie-1">
+            <div class="first_part_footer">
+                <a href="../fr/contact.html">Contact</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/a-propos.html">About us</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/autres-projet.html">Other projects</a>
+            </div>
+            <div class="first_part_footer">
+                <a href="../fr/glossaire.html">Glossary</a>
+            </div>
+        </div>
+        <div class="separateur"></div>
+        <div class="second_part_footer">
+            <p>Théo GASNER</p>
+            <p>Groupe C1</p>
+            <p>gasnertheo@gmail.com</p>
+            <p>This site is a project carried out as part of an educational exercise in the MMI Montbéliard department.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

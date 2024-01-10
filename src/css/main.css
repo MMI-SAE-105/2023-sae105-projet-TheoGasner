@@ -4,6 +4,8 @@ body {
     background-color: #DEBB77;
 }
 
+/* Header */
+
 header {
     background-color: #000;
     color: #fff;
@@ -32,4 +34,14 @@ header {
 .header-icons img {
     max-width: 30px;
     margin-left: 10px;
+}
+
+/* Footer */
+
+.footer_cineplique {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    height: 488px;
 }

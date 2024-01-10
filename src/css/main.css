@@ -53,3 +53,21 @@ header {
     margin-left: 30px;
 }
 
+.first_part_footer {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first_part_footer a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.partie-1 {
+    margin-top: 14px;
+    margin-bottom: -14px;
+}

@@ -51,6 +51,18 @@ header {
     top: 0;
 }
 
+.icon-croix {
+    height: 45px;
+}
+
+.icon-croix img {
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
 /* Footer */
 
 .footer_cineplique {

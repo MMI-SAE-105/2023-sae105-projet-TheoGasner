@@ -327,8 +327,10 @@ header {
 }
 
 .citation2 {
-    margin-left: 40px;
-    margin-top: 12px;
+    display: flex;
+    margin-left: 75px;
+    margin-top: 10px;
+    
 }
 
 /* Réplique */

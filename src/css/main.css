@@ -201,6 +201,58 @@ header {
     font-weight: 600;
 }
 
+.separator {
+    border-top: 2px solid #000;
+    margin-top: 45px;
+    width: 338px;
+    margin-left: 17px;
+}
+
+.container_text_left {
+    margin-right: -25px;
+    margin-top: 60px;
+    z-index: 5;
+}
+
+.text-info-container2 {
+    z-index: 5;
+    position: relative;
+    margin-top: -220px;
+    margin-left: 20px;
+    margin-right: 13px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    width: 143px;
+}
+
+.en-savoir-plus4 {
+    width: 133px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.en-savoir-plus5 {
+    width: 133px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: -3px;
+}
+
+.en-savoir-plus4 a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.en-savoir-plus5 a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
 /* Footer */
 
 .footer_cineplique {

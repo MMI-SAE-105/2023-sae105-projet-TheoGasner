@@ -19,7 +19,7 @@
                 @click="menuIsOpen = ! menuIsOpen" x-show=" ! menuIsOpen" x-transition:leave-end.delay.200ms
                 x-transition:enter.delay.200ms>
             <div class="menu-nav" id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms.transition>
-
+    
                 <div class="icon-croix">
                     <img src="/public/img/cross.svg" alt="logo croix" @click="menuIsOpen = ! menuIsOpen">
                 </div>
@@ -74,6 +74,13 @@
                                 </span>
                                 <a href="../fr/frise.html">Frise chronologique</a>
                             </li>
+                            <div class="separator_header"></div>
+                            <li class="item-nav">
+                                <span class="icon_menu">
+                                    <img src="../public/img/galerie.svg" alt="Icone galerie">
+                                </span>
+                                <a href="../fr/galerie.html">Galerie</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -81,7 +88,7 @@
     </header>
 
     <main>
-        
+
     </main>
 
     <footer class="footer_cineplique">

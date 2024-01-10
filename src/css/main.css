@@ -72,6 +72,14 @@ header {
     margin-top: 100px;
 }
 
+.item-nav a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
 /* Footer */
 
 .footer_cineplique {

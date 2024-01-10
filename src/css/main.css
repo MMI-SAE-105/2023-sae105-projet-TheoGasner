@@ -407,6 +407,49 @@ form {
     width: 100%;
 }
 
+.date-area {
+    display: flex;
+    order: 2;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    flex-basis: 100px;
+}
+
+.date-area>span {
+    font-size: 20px;
+    line-height: 70px;
+    margin: auto;
+    background-color: #C88D1C;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    color: #000;
+    order: 3;
+    width: 80%;
+    padding-left: 10px;
+    background-color: #e6e6e6;
+
+}
+
+.content h2 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.content img {
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
 /* Footer */
 
 .footer_cineplique {

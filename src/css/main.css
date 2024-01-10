@@ -185,6 +185,22 @@ header {
 
 }
 
+.en-savoir-plus {
+
+    width: 133px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.en-savoir-plus a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
 /* Footer */
 
 .footer_cineplique {

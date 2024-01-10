@@ -152,6 +152,39 @@ header {
     color: #000;
 }
 
+.h2_all_page {
+    color: #000;
+    margin-top: 35px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.img_info {
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.container_info {
+    display: flex;
+}
+
+.container_text {
+    margin-left: -20px;
+    margin-top: 60px;
+}
+
+.text-info-container {
+    z-index: 5;
+    position: relative;
+    margin-top: -170px;
+    margin-left: 20px;
+    margin-right: 13px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    width: 143px;
+
+}
+
 /* Footer */
 
 .footer_cineplique {

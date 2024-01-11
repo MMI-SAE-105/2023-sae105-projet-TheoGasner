@@ -135,7 +135,7 @@ header {
 }
 
 .overlay-text img {
-    margin-bottom: -480px;
+    margin-bottom: -440px;
 }
 
 .overlay-image {
@@ -162,7 +162,7 @@ header {
 
 .img_info {
     margin-top: 30px;
-    margin-left: 12px;
+    margin-left: 15px;
 }
 
 .container_info {
@@ -170,14 +170,14 @@ header {
 }
 
 .container_text {
-    margin-left: -20px;
+    margin-left: -30px;
     margin-top: 60px;
 }
 
 .text-info-container {
     z-index: 5;
     position: relative;
-    margin-top: -170px;
+    margin-top: -180px;
     margin-left: 20px;
     margin-right: 13px;
     font-family: 'Mulish', sans-serif;
@@ -190,7 +190,7 @@ header {
 
     width: 133px;
     height: 35px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-top: 10px;
 
 }
@@ -210,7 +210,8 @@ header {
 }
 
 .container_text_left {
-    margin-right: -25px;
+    margin-right: -40px;
+    margin-left: 25px;
     margin-top: 60px;
     z-index: 5;
 }
@@ -218,7 +219,7 @@ header {
 .text-info-container2 {
     z-index: 5;
     position: relative;
-    margin-top: -220px;
+    margin-top: -210px;
     margin-left: 20px;
     margin-right: 13px;
     font-family: 'Mulish', sans-serif;
@@ -229,15 +230,15 @@ header {
 .en-savoir-plus4 {
     width: 133px;
     height: 35px;
-    margin-left: 30px;
-    margin-top: 25px;
+    margin-left: 25px;
+    margin-top: 18px;
 }
 
 .en-savoir-plus5 {
     width: 133px;
     height: 35px;
-    margin-left: 30px;
-    margin-top: -3px;
+    margin-left: 22px;
+    margin-top: 5px;
 }
 
 .en-savoir-plus4 a {
@@ -264,7 +265,7 @@ header {
 }
 
 .img_center {
-    margin-left: 55px;
+    margin-left: 37px;
     margin-top: 30px;
 }
 
